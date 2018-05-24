@@ -1,0 +1,184 @@
+/* Name: Aine Grubb 
+*  Date: 30 May 2018 
+*  Lab: P06 */
+
+/*universal selector*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*selectors that were originally part of the fluid layout css template */
+
+body {
+    width: 100%;
+    background-color: #fff9db;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+h1 {
+    padding: 10px;
+}
+
+header {
+    border-bottom: 2px solid #328c46;
+}
+
+#sidebarA {
+    width: 25%;
+    height: 800px;
+    float: left;
+    border-right: 2px solid #328c46;
+}
+
+main {
+    width: 40%;
+    height:800px;
+    float: left;
+    padding: 1px 30px 1px 70px;
+}
+
+#sidebarB {
+    width: 25%;
+    height: 800px;
+    float: right;
+    border-left: 2px solid #328c46;
+}
+footer {
+    clear: both;
+    border-top: 2px solid #328c46;
+}
+
+/* image properties */
+
+#TG1 {
+	float: left;
+	padding: 1px;
+	border: 3px solid #424041;
+	margin: 3px;
+}
+
+#TG2 {
+	float: right;
+	padding: 1px;
+	border: 3px solid #424041;
+	margin: 3px;
+}
+
+#TG3 {
+	margin: 20px 20px 20px 50px;
+	border: 5px dotted gray;
+	padding: 2px;
+}
+
+#TG4 {
+	margin: 6px 20px 20px 50px;
+	border: 5px dotted gray;
+	padding: 2px;
+}
+
+
+/*left sidebar text properties */
+
+.leftbar1 {
+	text-align:center;
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.leftbar2 {
+	text-align: center;
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+.lefthead {
+	text-align: center;
+	text-decoration: underline; 
+	font-family: Verdana;
+	font-size: 21pt;
+	color: #1a3377;
+	
+}
+
+/*right sidebar text properties */
+
+.rightbar {
+	text-align: center;
+	font-size:12pt;
+	font-family: Arial;
+}
+
+.righthead {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Verdana;
+	font-size:21pt;
+	color: #1a3377;
+}
+
+/*main text properties*/
+
+#mainhead {
+	font-family: "Century Gothic";
+	text-align: center;
+	color: #893d3d;
+	font-size: 32pt;
+}
+
+
+.mainpara {
+	text-align: center;
+	font-family: Arial; 
+}
+
+/* header properties */ 
+
+#head1 {
+	text-align: center;
+	color: #2f94bf;
+	font-family: "Century Gothic";
+	font-size: 35pt;
+}
+
+#head2 {
+	text-align: center;
+	color: #2f94bf;
+	font-family: Verdana;
+	font-size: 24pt;
+}
+
+/* footer properties */ 
+
+#sources {
+	font-family: Verdana;
+	color: #2f94bf; 
+	font-size: 19pt; 
+	padding-left: 5px;
+}
+
+/*link properties*/
+
+a:link {
+	color: #ee9999;
+}
+
+a:visited {
+	color: #90fe56;
+}
+
+a:hover, a:focus {
+	color: #898989;
+	font-size: 13pt;
+}
+
+a:active {
+	color: #eef567;
+}
+
+.link {
+	padding-left: 5px;
+}
