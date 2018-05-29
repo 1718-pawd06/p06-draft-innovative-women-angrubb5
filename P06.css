@@ -28,21 +28,21 @@ header {
 
 #sidebarA {
     width: 25%;
-    height: 800px;
+    height: 900px;
     float: left;
     border-right: 2px solid #328c46;
 }
 
 main {
     width: 40%;
-    height:800px;
+    height:900px;
     float: left;
     padding: 1px 30px 1px 70px;
 }
 
 #sidebarB {
     width: 25%;
-    height: 800px;
+    height: 900px;
     float: right;
     border-left: 2px solid #328c46;
 }
@@ -68,7 +68,7 @@ footer {
 }
 
 #TG3 {
-	margin: 20px 20px 20px 50px;
+	margin: 20px 20px 20px 20px;
 	border: 5px dotted gray;
 	padding: 2px;
 }
